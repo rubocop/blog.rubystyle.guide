@@ -8,9 +8,9 @@ author: Bozhidar Batsov
 
 Hey, everyone!
 
-We're in the process of adding a guideline about the recommended way to do floating-point division with integer operands in Ruby to
+We're in the process of adding a guideline about the recommended way to do floating-point division with integer operands to
 the [Ruby style guide](https://rubystyle.guide) and a [matching cop](https://github.com/rubocop-hq/rubocop/pull/7153)
-to RuboCop and we need some feedback with that.
+to RuboCop and we need some help with that.
 
 There are four ways to do float division:
 
@@ -32,7 +32,8 @@ Our team is leaning toward recommending `fdiv` and coercing only the left operan
 For RuboCop the idea is to enforce the left coercion style by default, mostly because `fdiv` is not used much in the wild.
 
 In the spirit of broader community collaboration we've started this blog so that more people can see what we're working on, and participate in the discussions
-around introducing new guidelines and changing existing ones.
+around introducing new guidelines and changing existing ones.[^2]
 So, what do you think we should recommend and why?
 
 [^1]: After closing the ticket we've decided to ask for more feedback.
+[^2]: Discussions have been happening for years on the issue trackers of the style guides, but we hope that this blog is going to help us to reach out to more people.
