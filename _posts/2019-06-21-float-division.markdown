@@ -37,3 +37,5 @@ So, what do you think we should recommend and why?
 
 [^1]: After closing the ticket we've decided to ask for more feedback.
 [^2]: Discussions have been happening for years on the issue trackers of the style guides, but we hope that this blog is going to help us to reach out to more people.
+
+P.S. I wanted to add some simple voting mechanism to this post, but I couldn't find any good free options. Ideas in this direction would be appreciated!
