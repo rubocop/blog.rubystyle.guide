@@ -23,7 +23,7 @@ The above Implicit Block Expectation Syntax can be expressed with explicit synta
 
 ```ruby
 it 'changes something to a new value' do
-  expect { do_something }.to change(something).to(new_value) }
+  expect { do_something }.to change(something).to(new_value)
 end
 ```
 
@@ -33,7 +33,7 @@ Pros for using the syntax in question that we're aware of are:
 
 Cons:
  - an exception to the case when `subject` is cached, e.g. on each `is_subject` call the passed lambda will be re-executed
- - rarely used and not unfamiliar to many people
+ - rarely used and unfamiliar to many people
  - barely possible to detect it as a block expectation syntax with static analysis tools (RuboCop, Reek)
  - the guide [doesn't recommend using one-liner syntax](https://rspec.rubystyle.guide/#use-subject) except in some cases
  - there are no tests or documentation in RSpec that cover this syntax
