@@ -23,7 +23,7 @@ The above Implicit Block Expectation Syntax can be expressed with explicit synta
 
 ```ruby
 it 'changes something to a new value' do
-  expect { do_something }.to change(something).to(new_value) }
+  expect { do_something }.to change(something).to(new_value)
 end
 ```
 
