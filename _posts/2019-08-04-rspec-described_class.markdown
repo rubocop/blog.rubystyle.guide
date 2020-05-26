@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Reconsidering `described_class`"
+title:  "Reconsidering described_class"
 date:   2019-08-04 16:25:00 +0300
 categories: rspec
 author: Phil Pirozhkov
