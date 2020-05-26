@@ -20,7 +20,7 @@
 
 title: Ruby in Style
 description: >- # this means to ignore newlines until "baseurl:"
-  A companion blog to the community Ruby, Rails and RSpec guides.
+  A companion blog to the community Ruby, Minitest, Rails and RSpec guides.
   Mainly geared towards discussing various ideas before updating the guides.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.rubystyle.guide" # the base hostname & protocol for your site, e.g. http://example.com
