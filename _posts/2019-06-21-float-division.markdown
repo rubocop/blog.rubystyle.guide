@@ -10,7 +10,7 @@ Hey, everyone!
 
 We're in the process of adding a guideline about the recommended way to do floating-point division with integer operands to
 the [Ruby style guide](https://rubystyle.guide) and a [matching cop](https://github.com/rubocop-hq/rubocop/pull/7153)
-to RuboCop and we need some help with that.
+to RuboCop and we need some help with that. The discussion on the topic started [here](https://github.com/rubocop-hq/ruby-style-guide/issues/628).[^1]
 
 There are four ways to do float division:
 
@@ -27,7 +27,6 @@ foo / bar.to_f
 foo.fdiv(bar)
 ```
 
-The whole discussion started [here](https://github.com/rubocop-hq/ruby-style-guide/issues/628).[^1]
 Our team is leaning toward recommending `fdiv` and coercing only the left operand (as we feel that way you'll spot more quickly what's going on).
 For RuboCop the idea is to enforce the left coercion style by default, mostly because `fdiv` is not used much in the wild.
 
