@@ -27,8 +27,8 @@ url: "https://blog.rubystyle.guide" # the base hostname & protocol for your site
 
 rss: rss
 
-disqus:
-  shortname: rubystyle
+# disqus:
+#   shortname: rubystyle
 google_analytics: UA-142488513-1
 
 # Build settings
