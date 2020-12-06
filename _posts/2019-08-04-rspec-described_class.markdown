@@ -60,7 +60,7 @@ Unfortunately, this was not reflected in the docs ([1](https://relishapp.com/rsp
 RSpec.describe Article do
 
 # good
-RSpec.describe “Article” do
+RSpec.describe "Article" do
 ```
 
 > I recommend sticking to `describe <string arg>` for nested example groups as it avoids confusion.
